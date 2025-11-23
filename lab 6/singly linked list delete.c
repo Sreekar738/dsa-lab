@@ -80,7 +80,7 @@ void deleteLast() {
         return;
     }
 
-    struct Node* temp = head;
+    struct Node *temp = head;
     while (temp->next->next != NULL) {
         temp = temp->next;
     }
